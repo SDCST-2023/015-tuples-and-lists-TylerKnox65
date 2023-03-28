@@ -23,6 +23,7 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
+"""
 s1 = int(input("Enter an integer: "))
 s2 = int(input("Enter an integer: "))
 s3 = int(input("Enter an integer: "))
@@ -33,6 +34,17 @@ s7 = int(input("Enter an integer: "))
 s8 = int(input("Enter an integer: "))
 s9 = int(input("Enter an integer: "))
 s10 = int(input("Enter an integer: "))
+
 sList = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
 sList.sort(reverse=True)
 print(f"The largest number is {sList[0]}")
+"""
+nlist = []
+for i in range(10):
+    num = int(input("Enter an integer: "))
+    if num == -1:
+        nlist.sort(reverse=True)
+        print(f"The largest number is {nlist[0]}")
+    else:
+        nlist.append(num)
+
