@@ -10,6 +10,8 @@ print("\n\n=== Miscellaneous tuple/list commands")
 myList = ["Delta", "Echo", "Foxtrot","Alpha", "Golf", "Baker", "Charlie"]
 print(myList)
 print("Sorting the list using the command myList.sort()")
+dIndex = myList.index("Delta")
+print(dIndex)
 myList.sort()
 print(myList)
 print("\n")
