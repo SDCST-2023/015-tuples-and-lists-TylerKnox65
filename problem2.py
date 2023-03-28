@@ -33,12 +33,7 @@ if word in fruit:
     #wordback = word
     for i in fruit:
         if word in fruit:
-            fruit.remove(word)
-        
-        
-            
-
-        
+            fruit.remove(word)    
 else:
     fruit.append(word)
 print(fruit)
