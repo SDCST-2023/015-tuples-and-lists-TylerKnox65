@@ -23,3 +23,11 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+s1 = str(input("Enter a word: "))
+s2 = str(input("Enter a word: "))
+s3 = str(input("Enter a word: "))
+s4 = str(input("Enter a word: "))
+s5 = str(input("Enter a word: "))
+s6 = str(input("Enter a word: "))
+slist = [s1, s2, s3, s4, s5, s6]
+print(slist)
